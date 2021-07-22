@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: blue;
+	text-align: center;
+	font-family: fantasy;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.para {
+	border: 2px solid black;
+	background-color: gray;
+	margin: 10px;
+}
+.head {
+	position: relative;
+	left: 80%;
+	border: 2px solid black;
+}
