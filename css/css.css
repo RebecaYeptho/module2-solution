@@ -9,7 +9,6 @@ body {
 #container {
 	position: absolute;
 	top: 30%;
-	left: 2%;
 	overflow-y: auto;
 }
 h1 {
@@ -48,6 +47,10 @@ p {
 }
 /*responsive*/
 @media (min-width: 992px) {
+	#container {
+		position: absolute;
+		left: 3%;
+	}
 	section.para {
 		width: 30%;
 		float: left;
@@ -62,6 +65,10 @@ p {
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	#container {
+		position: absolute;
+		left: 2%;
+	}
 	#para1,#para2 {
 		float: left;
 		margin-left: 20px;
@@ -87,9 +94,12 @@ p {
 	}
 }
 @media (max-width: 767px) {
+	#container {
+		position: absolute;
+		left: 16%;
+	}
 	section.para {
 		width: 80%;
-		margin-left: 20px;
 		margin-bottom: 20px;
 		float: left;
 		clear: both;
